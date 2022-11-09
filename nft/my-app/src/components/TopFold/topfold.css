@@ -1,0 +1,92 @@
+.topfold {
+    height:92vh;
+    overflow: hidden;
+}
+
+.tf-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+
+.tf-heading {
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.tf-description {
+    font-size: 20px;
+    margin: 24px 0px;
+}
+
+.tf-left-btns {
+    margin-top: 36px;
+    display: flex;
+}
+
+.tf-left-secondary-btn {
+    margin-left: 36px;
+}
+
+.tf-left-infoStats {
+    display: flex;
+    padding: 48px 0px 0px;
+}
+
+.tf-is-infoItem {
+    margin-right : 24px;
+    flex-direction: column;
+}
+
+.tf-infoItem-count {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.tf-infoItem-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tf-right {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.tf-right-diamond {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.tf-r-diamond-item {
+    height: 280px;
+    width: 200px;
+    overflow: hidden;
+    margin: 6px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+}
+
+.tf-r-diamond-item img {
+    height: 400px;
+    object-fit: contain;
+    display: block;
+}
+
+.tf-r-bg-blob {
+    height: 550px;
+    width: 550px;
+    background-color: var(--bg-blob);
+    filter: blur(160.58px);
+    position:absolute;
+    z-index: -99;
+    left: 20%;
+    top: 10%;
+    transform: translate(-50%);
+}

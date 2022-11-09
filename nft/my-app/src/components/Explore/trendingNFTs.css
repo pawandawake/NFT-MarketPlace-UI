@@ -1,0 +1,4 @@
+.ex {
+    display: flex;
+    flex-wrap: wrap;
+}

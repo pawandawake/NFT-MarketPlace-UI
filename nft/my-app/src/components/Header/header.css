@@ -1,0 +1,17 @@
+.header {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 0px 0px;
+    letter-spacing: 12px;
+}
+
+.grd {
+    font-size: 55px;
+  background: -webkit-linear-gradient( 90deg,
+  rgba(105,234,203,1)0%,
+  rgba(234,204,248,1)50%,
+  rgba(102,84,241,1)100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

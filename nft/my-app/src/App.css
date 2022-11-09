@@ -1,0 +1,10 @@
+@import url("./common/styles/commonClasses.css");
+@import url("./common/styles/variables.css");
+
+body {
+    background-color: var(--background);
+    color: var(--white);
+}
+.space {
+    min-height: 40px;
+}
