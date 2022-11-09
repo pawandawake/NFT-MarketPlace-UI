@@ -13,7 +13,7 @@ const TrendingNFTs = () => {
   return (
     <div className='trending-nfts'>
       <div className='tn-title absolute-center'>
-        <span className='heading-gradient '>TRENDING NFT</span>
+        <span className='heading-gradient '>TRENDING NFTs</span>
       </div>
       <div className='tn-bg-blob'></div>
       <Slider {...settings}>
